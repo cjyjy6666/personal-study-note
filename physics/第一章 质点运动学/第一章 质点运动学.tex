@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{ctex}
+
+\title{第一章 质点运动学}
+\author{华中科技大学大学物理A}
+\date{2025.2.21}
+\begin{document}
+\maketitle
+\noindent 参考系：参照物+坐标系+时钟\\
+可作质点的条件：1.不变形、不转动 2.本身线度$<<$活动范围\\
+否则：微元法 1.质点系 2.连续体切为质量元
+
+
+\noindent 位矢$\vec{r}=x\vec{i}+y\vec{j}+z\vec{k}$\\
+运动方程$\vec{r}(t)$，消去$t$得轨迹方程\\
+位移大小记为$\lvert \Delta\vec{r} \rvert$，而\underline{$\Delta r$表示的是位矢长度的增量}\\
+\[\Delta s\geq \lvert \Delta\vec{r} \rvert \geq \Delta r
+\footnote{做不回头的一维直线运动时取等}\]\\
+且有当$\Delta t\to0$时，$ds=\lvert d\vec{r} \rvert$\\
+自然坐标系:$\hat{\mathbf{e}_\tau}\,\hat{\mathbf{e}_n}$
+\[\vec{v}=v\hat{\mathbf{e}_\tau}\quad
+\vec{a}=\frac{d}{dt}(v\hat{\mathbf{e}_\tau})
+=\frac{dv}{dt}\hat{\mathbf{e}_\tau}
++v\frac{d\hat{\mathbf{e_\tau}}}{dt}\]
+\[\vec{a_\tau}=\frac{dv}{dt}\hat{\mathbf{e}_\tau}\quad
+\quad\vec{a_n}=\frac{v^2}{\rho}\hat{\mathbf{e}_n}\]
+\\例:$\vec{r}=t^2\vec{i}+(2t-1)\vec{j}$
+求$\lvert \vec{a_n} \rvert$.
+\[\vec{v}=\frac{d\vec{r}}{dt}\quad
+\vec{a}=\frac{d\vec{v}}{dt}\quad\lvert \vec{a} \rvert=\sqrt{\lvert \vec{a} \rvert^2-\lvert \vec{a_\tau} \rvert^2}
+\]
+\begin{center}
+不一定直接求曲率半径$\rho$
+\end{center}
+\newpage
+\noindent 求$\vec{a}(\vec{v})\quad\vec{a}(\vec{r})$：分离变量，积分\\
+例：已知$a=kx$，求$v(x)$
+\[
+kx=a=\frac{dv}{dt}=\frac{dv}{dx}\frac{dx}{dt}=\frac{dv}{dx}v
+\]
+\[\Rightarrow \int kx\,dx=\int v\,dv
+\Rightarrow v=\sqrt{kx^2+C}
+\]
+相对运动\footnote{隐含前提条件：绝对时空观}\\
+\[\vec{v_{\text{绝对}}}=\vec{v_{\text{相对}}}+\vec{v_{\text{牵连}}}\]
+\[\vec{a_{\text{绝对}}}=\vec{a_{\text{相对}}}+\vec{a_{\text{牵连}}}\]
+\end{document}
+
