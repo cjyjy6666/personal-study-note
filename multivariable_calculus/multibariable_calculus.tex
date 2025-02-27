@@ -13,5 +13,55 @@ Let $\overrightarrow{OP}=(x,y,z)$,$\overrightarrow{A}=(1,2,3)$,then $\overrighta
 on a plane going through the origin point($O$).
 \textbf{Remember to use vectors in multivariable calculus!}
 \section{Deteminants}
+\subsection{In a plane}
+Area of a triangle:
+\[\pm Area=\frac{1}{2}\left|\overrightarrow{A}\right|
+\cdot\left|\overrightarrow{B}\right|\sin\theta
+=\frac{1}{2}\left|\overrightarrow{A'}\right|\cdot\left|\overrightarrow{B}\right|\cos\theta'
+=\frac{1}{2}\overrightarrow{A'}\cdot\overrightarrow{B}
+=\frac{1}{2}(-a_2,a_1)\cdot(b_1,b_2)
+\]
+\[=\frac{1}{2}(a_1b_2-a_2b_1)
+=det(A,B)
+=\frac{1}{2}
+\begin{vmatrix}
+a_1&a_2\\
+b_1&b_2
+\end{vmatrix}
+\]
+($\overrightarrow{A'}$:$\overrightarrow{A}$ rotated by $90^\circ$ anticlockwise)
+\subsection{In a space}
+\subsubsection{volume of solids}
+\boxed{Theorem}Geomatrically,
+$det(\overrightarrow{A},\overrightarrow{B},\overrightarrow{C})
+=\pm Volume\, of\, parallelepiped$
 
+\underline{cross product} of 2 vectors in 3d space:\\
+\boxed{Def}\[
+\overrightarrow{A}\times\overrightarrow{B}
+=\begin{vmatrix}
+a_2&a_3\\
+b_2&b_3
+\end{vmatrix}\hat{i}
+-\begin{vmatrix}
+a_1&a_3\\
+b_1&b_3
+\end{vmatrix}\hat{j}
++\begin{vmatrix}
+a_1&a_2\\
+b_1&b_2
+\end{vmatrix}\hat{k}
+=\begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k}\\
+a_1 & a_2 & a_3\\
+b_1 & b_2 & b_3
+\end{vmatrix}
+\](3×3 only for remembering)\\
+\boxed{Theorem}
+$\left|\overrightarrow{A}\times\overrightarrow{B}\right|$
+is the area of the parallelogram spanned by $\overrightarrow{A}$ and $\overrightarrow{B}$.\\
+$dir(\overrightarrow{A}\times\overrightarrow{B})$
+is perpendicular to the plane of the parallelogram.\\
+use \textbf{right-hand rule} to determine the direction of the cross product.\\
+For example, $\hat{i}\times\hat{j}=\hat{k}$\\
 \end{document}

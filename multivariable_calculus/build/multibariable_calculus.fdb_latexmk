@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1740561367.10811 "build/multibariable_calculus.xdv" "build/multibariable_calculus.pdf" "build/multibariable_calculus" 1740561367.64601 0
-  "build/multibariable_calculus.xdv" 1740561367 3560 158553a7ced78ba9e89bc3e2e077bec1 "xelatex"
+["xdvipdfmx"] 1740636522.97774 "build/multibariable_calculus.xdv" "build/multibariable_calculus.pdf" "build/multibariable_calculus" 1740636523.51948 0
+  "build/multibariable_calculus.xdv" 1740636522 10784 13cf82ad34f2c1e1757766c8af4d9cde "xelatex"
   (generated)
   "build/multibariable_calculus.pdf"
   (rewritten before read)
-["xelatex"] 1740561366.54617 "d:/111learn/learning_notes/multivariable_calculus/multibariable_calculus.tex" "build/multibariable_calculus.xdv" "multibariable_calculus" 1740561367.6444 0
-  "build/multibariable_calculus.aux" 1740561367 230 e525268e6fc5294df8ff512d0597a155 "xelatex"
+["xelatex"] 1740636522.44004 "d:/111learn/learning_notes/multivariable_calculus/multibariable_calculus.tex" "build/multibariable_calculus.xdv" "multibariable_calculus" 1740636523.51852 0
+  "build/multibariable_calculus.aux" 1740636522 550 861403bed3850147e3911f384c4aca5e "xelatex"
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1739800677 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -31,8 +31,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
   "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
-  "d:/111learn/learning_notes/multivariable_calculus/multibariable_calculus.tex" 1740561366 470 594a39993db552c8a5ff9133ded4e758 ""
-  "multibariable_calculus.tex" 1740561366 470 594a39993db552c8a5ff9133ded4e758 ""
+  "d:/111learn/learning_notes/multivariable_calculus/multibariable_calculus.tex" 1740636521 1975 07a88a1f7ac2f44c7d422e234bc08cd3 ""
+  "multibariable_calculus.tex" 1740636521 1975 07a88a1f7ac2f44c7d422e234bc08cd3 ""
   (generated)
   "build/multibariable_calculus.aux"
   "build/multibariable_calculus.log"

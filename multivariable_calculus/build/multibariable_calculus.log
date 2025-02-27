@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  26 FEB 2025 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  27 FEB 2025 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -117,7 +117,12 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--67
+
+ []
+
+[1
 
 ] (build/multibariable_calculus.aux)
  ***********
@@ -126,12 +131,12 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1215 strings out of 474773
- 19584 string characters out of 5761289
- 1921842 words of memory out of 5000000
- 23409 multiletter control sequences out of 15000+600000
- 561981 words of font info for 56 fonts, out of 8000000 for 9000
+ 1221 strings out of 474773
+ 19752 string characters out of 5761289
+ 1938842 words of memory out of 5000000
+ 23414 multiletter control sequences out of 15000+600000
+ 561989 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,14n,65p,268b,197s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,15n,65p,268b,197s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/multibariable_calculus.xdv (1 page, 3560 bytes).
+Output written on build/multibariable_calculus.xdv (1 page, 10784 bytes).
