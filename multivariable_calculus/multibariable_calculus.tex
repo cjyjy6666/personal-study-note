@@ -36,7 +36,7 @@ b_1&b_2
 $det(\overrightarrow{A},\overrightarrow{B},\overrightarrow{C})
 =\pm Volume\, of\, parallelepiped$
 
-\underline{cross product} of 2 vectors in 3d space:\\
+\underline{\textbf{cross product}} of 2 vectors in 3d space:\\
 \boxed{Def}\[
 \overrightarrow{A}\times\overrightarrow{B}
 =\begin{vmatrix}
@@ -57,6 +57,9 @@ a_1 & a_2 & a_3\\
 b_1 & b_2 & b_3
 \end{vmatrix}
 \](3×3 only for remembering)\\
+In particular,$\overrightarrow{A}\times\overrightarrow{B}
+=-\overrightarrow{B}\times\overrightarrow{A}$,
+and$\overrightarrow{A}\times\overrightarrow{A}=0$\\
 \boxed{Theorem}
 $\left|\overrightarrow{A}\times\overrightarrow{B}\right|$
 is the area of the parallelogram spanned by $\overrightarrow{A}$ and $\overrightarrow{B}$.\\
@@ -64,4 +67,42 @@ $dir(\overrightarrow{A}\times\overrightarrow{B})$
 is perpendicular to the plane of the parallelogram.\\
 use \textbf{right-hand rule} to determine the direction of the cross product.\\
 For example, $\hat{i}\times\hat{j}=\hat{k}$\\
+
+Another loook at volumn:\\
+\[Volumn=area(base)\cdot height=\left | \overrightarrow{B}\times\overrightarrow{C}  \right |\cdot(\overrightarrow{A}\cdot\vec{n})
+=\left | \overrightarrow{B}\times\overrightarrow{C}  \right |\cdot(\overrightarrow{A}\cdot
+\frac{\overrightarrow{B}\times\overrightarrow{C}}{\left | \overrightarrow{B}\times\overrightarrow{C}  \right |})
+\]
+\[=\overrightarrow{A}\cdot(\overrightarrow{B}\times\overrightarrow{C})
+=det(\overrightarrow{A},\overrightarrow{B},\overrightarrow{C})\]
+which makes sense with formulas.
+
+To decide that $P$ is on the plane$P_1P_2P_3$:
+\[Volumn=det(\overrightarrow{P_1P},\overrightarrow{P_1P_2},\overrightarrow{P_1P_3})=0\]
+\\Other solution($\overrightarrow{N}$is a normal vector of the plane.):
+\[\overrightarrow{P_1P}\perp\overrightarrow{N}\]\\
+How to find a normal vector? Use the cross product of 2 vectors on the plane!\\
+\[\overrightarrow{N}=\overrightarrow{P_1P_2}\times\overrightarrow{P_1P_3}\]
+So the two solutions are equivalent.(triple product=det.)
+\[\overrightarrow{P_1P}\cdot(\overrightarrow{P_1P_2}\times\overrightarrow{P_1P_3})
+=det(\overrightarrow{P_1P},\overrightarrow{P_1P_2},\overrightarrow{P_1P_3})=0\]
+
+\section{Matrices}
+Ex.exchange of coordinate systems.\\
+multiplying matrices\\
+$(AB)X$\\
+$AB$represents: do transformation $B$ first, then do transformation $A$.\\
+Identity matrix $I$
+
+Example:in the plane,rotation by $90^\circ$ counterclockwise:
+\[use\quad R=\begin{bmatrix}
+0&-1\\
+1&0
+\end{bmatrix}\]
+
+Inverse matrix:for a square matrix $A$,$AA^{-1}=A^{-1}A=I$\\
+So a linear system $AX=b$can be solved.\\
+To find the invert matrix: adjoint matrix is introduced.
+\section{Square Systems}
+
 \end{document}
