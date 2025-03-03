@@ -1,8 +1,8 @@
-PWD d:/111learn/learning_notes/circuit_theory/circuit_homework
+PWD d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper1
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
-INPUT d:/111learn/learning_notes/circuit_theory/circuit_homework/chapter1.tex
+INPUT d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper1/chapter1.tex
 OUTPUT build/chapter1.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls

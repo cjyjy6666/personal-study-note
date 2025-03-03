@@ -1,31 +1,32 @@
 # Fdb version 4
-["xdvipdfmx"] 1740920198.90896 "build/chapter1.xdv" "build/chapter1.pdf" "build/chapter1" 1740920199.4675 0
-  "build/chapter1.xdv" 1740920198 115924 c03f0f0bec1bf358092ccf979e4d2f12 "xelatex"
+["xdvipdfmx"] 1741010703.49391 "build/chaper2.xdv" "build/chaper2.pdf" "build/chaper2" 1741010704.09413 0
+  "build/chaper2.xdv" 1741010703 16188 d3df9a706546a6878dac804b2079b743 "xelatex"
   (generated)
-  "build/chapter1.pdf"
+  "build/chaper2.pdf"
   (rewritten before read)
-["xelatex"] 1740920197.53615 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chapter1.tex" "build/chapter1.xdv" "chapter1" 1740920199.46379 0
-  "build/chapter1.aux" 1740920198 32 044b7f8fc9779af7531264e0c5c84b6d "xelatex"
+["xelatex"] 1741010702.36824 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" "build/chaper2.xdv" "chaper2" 1741010704.08858 0
+  "2-1.jpg" 1740977874 23058 2e3448df35a530d4ae4b9a1438dd614f ""
+  "2-10.jpg" 1741009152 70090 33fb47827f1399d0d5711aff827e0699 ""
+  "2-2.jpg" 1740977875 28947 249b49ebf14f8743a451afe2ffd6ea77 ""
+  "2-5.jpg" 1740977875 35077 ecad28eda52ada9096e670d587668455 ""
+  "2-7.jpg" 1740977875 44267 3c3524275204c516f5a04ba49a9bfc7e ""
+  "build/chaper2.aux" 1741010703 32 ab05033ccbb38b00a31b200ccedf8001 "xelatex"
   "c:/Windows/Fonts/msyh.ttc" 1733923000 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1739800677 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
-  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1739800677 996 a18840b13b499c08ac2de96a99eda4bc ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1739800873 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1739800873 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1739800873 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1739800873 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1739800873 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1739800873 1524 d89e2d087a9828407a196f428428ef4a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1739800873 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1739800873 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1739800873 1300 b62933e007d01cfd073f79b963c01526 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1739800873 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1739800873 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1739800873 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1739800873 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1739800873 1120 8b7d695260f3cff42e636090a8002094 ""
-  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1739800873 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex" 1739800862 42380 85c81738b0e72a8d4dad782eb31d7df8 ""
   "c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex" 1739800862 301035 192c587314211ff03bc2fc833d7c9123 ""
   "c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex" 1739800862 9538 a019eab1fb9629bf682b269b98814bc2 ""
@@ -159,10 +160,10 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
   "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
-  "chapter1.tex" 1740920197 12418 84465e9b50cb72f425c7ddc386781ee3 ""
-  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chapter1.tex" 1740920197 12418 84465e9b50cb72f425c7ddc386781ee3 ""
+  "chaper2.tex" 1741010701 3326 0cec690529b78cbea70a76658059fd59 ""
+  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" 1741010701 3326 0cec690529b78cbea70a76658059fd59 ""
   (generated)
-  "build/chapter1.aux"
-  "build/chapter1.log"
-  "build/chapter1.xdv"
+  "build/chaper2.aux"
+  "build/chaper2.log"
+  "build/chaper2.xdv"
   (rewritten before read)
