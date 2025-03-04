@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  3 MAR 2025 22:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  4 MAR 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,7 +632,10 @@ File: 2-7.jpg Graphic file (type bmp)
 <2-7.jpg>
 File: 2-10.jpg Graphic file (type bmp)
 <2-10.jpg>
- [3] (build/chaper2.aux)
+ [3]
+File: 2-14.jpg Graphic file (type bmp)
+<2-14.jpg>
+ [4] (build/chaper2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -644,12 +647,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 35021 strings out of 474773
- 950416 string characters out of 5761289
- 1928842 words of memory out of 5000000
- 56798 multiletter control sequences out of 15000+600000
+ 35030 strings out of 474773
+ 950536 string characters out of 5761289
+ 1931842 words of memory out of 5000000
+ 56806 multiletter control sequences out of 15000+600000
  564907 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,6n,107p,486b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/chaper2.xdv (3 pages, 16188 bytes).
+Output written on build/chaper2.xdv (4 pages, 18072 bytes).

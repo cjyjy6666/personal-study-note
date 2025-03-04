@@ -1,16 +1,17 @@
 # Fdb version 4
-["xdvipdfmx"] 1741010703.49391 "build/chaper2.xdv" "build/chaper2.pdf" "build/chaper2" 1741010704.09413 0
-  "build/chaper2.xdv" 1741010703 16188 d3df9a706546a6878dac804b2079b743 "xelatex"
+["xdvipdfmx"] 1741066615.48468 "build/chaper2.xdv" "build/chaper2.pdf" "build/chaper2" 1741066616.05228 0
+  "build/chaper2.xdv" 1741066615 18072 d7a219fa394e8170d403f60aac302fa1 "xelatex"
   (generated)
   "build/chaper2.pdf"
   (rewritten before read)
-["xelatex"] 1741010702.36824 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" "build/chaper2.xdv" "chaper2" 1741010704.08858 0
+["xelatex"] 1741066614.45831 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" "build/chaper2.xdv" "chaper2" 1741066616.04777 0
   "2-1.jpg" 1740977874 23058 2e3448df35a530d4ae4b9a1438dd614f ""
   "2-10.jpg" 1741009152 70090 33fb47827f1399d0d5711aff827e0699 ""
+  "2-14.jpg" 1740977877 33242 651672aa94de8ba1b095516f927f90a7 ""
   "2-2.jpg" 1740977875 28947 249b49ebf14f8743a451afe2ffd6ea77 ""
   "2-5.jpg" 1740977875 35077 ecad28eda52ada9096e670d587668455 ""
   "2-7.jpg" 1740977875 44267 3c3524275204c516f5a04ba49a9bfc7e ""
-  "build/chaper2.aux" 1741010703 32 ab05033ccbb38b00a31b200ccedf8001 "xelatex"
+  "build/chaper2.aux" 1741066615 32 c81c40425fbb5e93b90fba65da0b5e61 "xelatex"
   "c:/Windows/Fonts/msyh.ttc" 1733923000 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
@@ -160,8 +161,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
   "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
-  "chaper2.tex" 1741010701 3326 0cec690529b78cbea70a76658059fd59 ""
-  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" 1741010701 3326 0cec690529b78cbea70a76658059fd59 ""
+  "chaper2.tex" 1741066613 3812 348bce5835925d62679fcc81454d12c6 ""
+  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper2/chaper2.tex" 1741066613 3812 348bce5835925d62679fcc81454d12c6 ""
   (generated)
   "build/chaper2.aux"
   "build/chaper2.log"
