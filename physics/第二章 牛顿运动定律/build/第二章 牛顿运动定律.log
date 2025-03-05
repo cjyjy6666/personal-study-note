@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  28 FEB 2025 21:52
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  5 MAR 2025 19:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,46 +356,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
  [1
 
-]
-Overfull \hbox (67.5746pt too wide) detected at line 79
+] [2]
+Overfull \hbox (67.5746pt too wide) detected at line 108
 [] \OMS/cmsy/m/n/10 ) [] ) []
  []
 
 File: eg2.jpg Graphic file (type bmp)
 <eg2.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: eg3-1.jpg Graphic file (type bmp)
 <eg3-1.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]
+[3]
 File: eg3-2.jpg Graphic file (type bmp)
 <eg3-2.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: eg4.jpg Graphic file (type bmp)
 <eg4.jpg>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] (build/第二章 牛顿运动定律.aux)
+[4] [5] [6] (build/第二章 牛顿运动定律.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7458 strings out of 474773
- 209081 string characters out of 5761289
+ 7515 strings out of 474773
+ 212580 string characters out of 5761289
  1933842 words of memory out of 5000000
- 29513 multiletter control sequences out of 15000+600000
+ 29570 multiletter control sequences out of 15000+600000
  563831 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,8n,97p,418b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/第二章 牛顿运动定律.xdv (4 pages, 17180 bytes).
+Output written on build/第二章 牛顿运动定律.xdv (6 pages, 31068 bytes).

@@ -56,9 +56,38 @@ $\vec{\omega}$为转动参考系相对惯性系转动的角速度.\\
 \item 北半球逆时针漩涡
 \item 南北半球均落体偏东
 \end{itemize}
+\subsection{冲量与动量定理}
+def冲量:
+\[d\vec{I}=\vec{F}dt\quad \vec{I}=\int_{t_1}^{t_2}\vec{F}dt\]
 
+动量定理：
+\[d\vec{I}=\vec{F}dt=d\vec{P}\quad \vec{I}=\vec{P_2}-\vec{P_1}\]\\
+动量定理适用于惯性参考系.非惯性参考系中考虑惯性力的冲量.
+
+def平均冲力
+\[\bar{\vec{F}}=\frac{\int_{t_1}^{t_2}\vec{F}dt}{t_2-t_1}=\frac{P_2-P_1}{t_2-t_1}\]
+常在分量上用冲量定理.
+
+质点系的动量定理：用合外力和系统总动量.
+
+\boxed{\text{变质量问题}}
+\[(m+dm)(\vec{v}+d\vec{v})+(-dm)[\vec{u}+\vec{v}+d\vec{v}]-m\vec{v}=\vec{F}dt\]
+\[\Rightarrow m\frac{d\vec{v}}{dt}-\vec{u}\frac{dm}{dt}=\vec{F}\]
+即为\textbf{密歇尔斯基方程}.注意$dm$可能是负的，$\vec{u}$是相对速度.
+\\其中$F_\text{推力}=u\frac{dm}{dt}$.对于火箭,$\frac{dm}{dt}$为燃料的燃烧速率.\\
+对于自由空间中火箭的直线运动，有：
+\[m\frac{dv}{dt}+u\frac{dm}{dt}=0
+\Rightarrow dv=-u\frac{dm}{m}\Rightarrow
+\int_{v_0}^{v_f}dv=-u\int_{m_0}^{m_f}\frac{dm}{m}
+\]
+所以\[v_f=v_0+u\ln\frac{m_0}{m_f}\]
+提高$v_f$，需要增大$u$，增大$\frac{m_0}{m_f}$.
+
+设质量比$N=\frac{m_0}{m_f}$,采用多级火箭，有
+\[v_f-v_0=\sum u\ln N_i=u \ln \prod N_i\]
 \section{Exercises}
 \subsection{课堂例题}
+\subsubsection{第一章}
 例1：一质量为$m$的物体在重力 的作用下以大小为$v_0$的初速度沿与水平方向成$\alpha$
 角的方向向上抛出，空气阻力与物体动量成正比，
 比例系数为$k(k>0)$，求物体运动轨迹.\boxed{\textbf{\text{建系}}}
@@ -109,4 +138,51 @@ y=\frac{1}{k^2}(g+kv_0\sin\alpha)(1-e^{-kt})-\frac{gt}{k}
     \centering
     \includegraphics[width=0.8\textwidth]{eg4.jpg}
     \end{figure}
+\newpage
+例5：
+一铅直悬挂的匀质柔软细绳长为$L$，下端刚好触及水平桌面，现松开绳的上端，让绳落至桌面上。
+试证明：任意时刻作用于桌面的压力$N$,等于已落到桌面上的绳重$G$的三倍？
+
+\noindent 解：
+$dy$下落：
+\[Fdt=\Delta P=vdm=\frac{dy}{dt}\frac{m}{L}dy
+\Rightarrow
+F=\frac{m}{L}(\frac{dy}{dt})^2=\frac{m}{L}v^2
+\]
+又$v^2=2gy$,有：
+\[F=2\frac{y}{L}mg\]
+其中$F$为桌面对绳的力.由牛顿第三定律,绳对桌面的力也为$F$.
+又$G=\frac{y}{L}mg$，则压力$N=G+F=3G$.\\
+不要忘了加G.
+
+例6:
+水平桌面上盘放着一根不能拉伸的均匀柔软的长绳，单位长度质量为$\lambda$,
+用手将绳的一段以恒定速率$v_0$竖直上提.求提起的绳长为$L$时，手的提力的大小$F$.
+\\\textbf{变质量问题，用密尔歇斯基方程！}
+
+\noindent 解：
+\[
+F-mg=m\frac{dv}{dt}-u\frac{dm}{dt}=v_0\frac{dm}{dt}\]
+\[m=\lambda L\Rightarrow \frac{dm}{dt}=\lambda \frac{dy}{dt}=\lambda v_0\]
+\[\Rightarrow F=mg+v_0^2 \lambda=\lambda Lg+\lambda v_0^2\]
+
+\noindent 另解：设$t$时刻提起的绳长为$y$，$t+dt$时刻提起的绳长为$y+dy$\\
+对于长为$y+dy$的绳（看作质点系）：
+\[(F-mg)dt=(y+dy)\lambda v_0-y\lambda v_0=\lambda v_0dy\]
+\[\Rightarrow F=mg+\lambda v_0\frac{dy}{dt}=\lambda Lg+\lambda v_0^2\]
+
+例7：
+长为$l$的铁链平放在桌上，质量线密度为$\rho$，
+用手提起链的一段使之以匀速$v_0$铅直上升，
+求：从一段离地到全链离地，手的拉力的冲量？
+
+\noindent 解一：
+同例6可得\[F=\rho yg+\rho v_0^2\]
+\[\Rightarrow I_F=\int_0^{\frac{l}{v_0}}Fdt
+=\int_0^{\frac{l}{v_0}}(\rho v_0tg+\rho v_0^2)dt
+=\frac{\rho gl^2}{2v_0}+\rho v_0l\]
+\noindent 解二：动量定理
+\[\int_0^t(F-\rho gy)dt=\rho lv_0
+\Rightarrow I_F=\int_0^tFdt=\frac{\rho gl^2}{2v_0}+\rho v_0l\]
+
 \end{document}
