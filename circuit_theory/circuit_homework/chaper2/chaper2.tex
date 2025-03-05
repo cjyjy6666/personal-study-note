@@ -5,7 +5,7 @@
 \usepackage{circuitikz}
 
 \title{电路第二章作业}
-\author{自实陈嘉宇U202414389}
+\author{华中科技大学电路理论（五）}
 \date{}
 \begin{document}
 \maketitle
@@ -86,10 +86,27 @@ $u_\text{ab}=i_sR=30V$
 
 (b)$i_s=i_\text{s4}-\frac{u_\text{s1}}{R1}-i_\text{s2}-\frac{u_\text{s5}}{R5}=2A$,
 $R=R_1//R_3//R_5=2.5\Omega$,$u_\text{ab}=i_sR=5V$
+\section*{2-11}
+利用电源等效变换，求电流$i$
+\begin{center}
+\includegraphics[width=0.5\textwidth,height=0.2\textheight]{2-11.jpg}
+\end{center}
+\noindent 解：
+左边三个电压源可以等效成一个$6.5A$,$1\Omega$的电流源.
+两个方向相反的电流源再等效为一个$2.5V$,$5\Omega$的电压源.
+得$10\Omega$电阻两端电压为$u=1.25V$，故$i=0.125A$.
 \section*{2-14}
 求图(a)(b)的输入电阻$R_\text{ab}$
 \begin{center}
 \includegraphics[width=0.7\textwidth,height=0.2\textheight]{2-14.jpg}
 \end{center}
-To be continued...
+\noindent 解：
+(a)
+$u_1=IR_1$,$U=IR_2-\mu IR_1+IR_1
+\Rightarrow R_\text{ab}=\frac{U}{I}
+=R_2+(1-\mu)R_1$
+
+(b)由KCL:$i_2=(1+\beta)i_1\Rightarrow u_2=(1+\beta)i_1R_2$
+,$U=i_1R_1+(1+\beta)i_1R_2
+\Rightarrow R_\text{ab}=\frac{U}{i_1}=R_1+(1+\beta)R_2$
 \end{document}
