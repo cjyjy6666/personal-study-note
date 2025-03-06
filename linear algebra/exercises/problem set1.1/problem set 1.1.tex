@@ -74,9 +74,9 @@ Draw$\mathbf{v}=\begin{bmatrix}
 \end{bmatrix}$
 and $\mathbf{v}+\mathbf{w}$and $\mathbf{v}-\mathbf{w}$
 in a single $xy$ plane.
-\begin{figure}[!ht]
+\begin{figure}[h]
     \centering
-    \resizebox{1\textwidth}{!}{%
+    \resizebox{0.6\textwidth}{!}{%
     \begin{circuitikz}
     \tikzstyle{every node}=[font=\large]
     \draw [->, >=Stealth] (-21.25,-1) -- (-13.25,-1);
@@ -95,4 +95,151 @@ in a single $xy$ plane.
     \end{circuitikz}
     }%
     \end{figure}
+\section{}
+If $\mathbf{v}+\mathbf{w}=\begin{bmatrix}
+    5\\1
+\end{bmatrix}$
+and $\mathbf{v}-\mathbf{w}=\begin{bmatrix}
+    1\\5
+\end{bmatrix}$.
+Compute and draw the vectors $\mathbf{v}$and $\mathbf{w}$.
+\[\mathbf{v}=\begin{bmatrix}
+    3\\3
+\end{bmatrix}\quad
+\mathbf{w}=\begin{bmatrix}
+    2\\-2
+\end{bmatrix}
+\]
+\begin{figure}[h]
+    \centering
+    \resizebox{0.4\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\large]
+    \draw [->, >=Stealth] (-21.25,-1) -- (-13.25,-1);
+    \draw [->, >=Stealth] (-18.75,-2.25) -- (-18.75,2.75);
+    \node [font=\large] at (-12.75,-1.25) {x};
+    \node [font=\large] at (-18.75,3.25) {y};
+    \node [font=\large] at (-19.25,-1.25) {O};
+    \draw [short] (-18.75,-2.25) -- (-18.75,-3.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-15,2.75);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-16.25,-3.5);
+    \node [font=\large] at (-16.25,2) {\textbf{v}};
+    \node [font=\large] at (-16.75,-2.5) {\textbf{w}};
+    \end{circuitikz}
+    }%
+    
+    \label{fig:my_label}
+    \end{figure}
+\section{}
+From$\mathbf{v}=\begin{bmatrix}
+    2\\1
+\end{bmatrix}$
+and $\mathbf{w}=\begin{bmatrix}
+    1\\2
+\end{bmatrix}$,
+find the components of
+$3\mathbf{v}+\mathbf{w}$
+and$c\mathbf{v}+d\mathbf{w}$.
+\[3\mathbf{v}+\mathbf{w}=\begin{bmatrix}
+    7\\5
+\end{bmatrix}\quad
+c\mathbf{v}+d\mathbf{w}=\begin{bmatrix}
+    2c+d\\c+2d
+\end{bmatrix}
+\]
+\section{}
+$\mathbf{u}=\begin{bmatrix}
+    1\\2\\3
+\end{bmatrix}\quad
+\mathbf{v}=\begin{bmatrix}
+    -3\\1\\-2
+\end{bmatrix}$
+and $\mathbf{w}=\begin{bmatrix}
+    2\\-3\\-1
+    \end{bmatrix}$,
+compute$\mathbf{u}+\mathbf{v}+\mathbf{w}$
+and $2\mathbf{u}+2\mathbf{v}+\mathbf{w}$.
+How do you know that $\mathbf{u},\mathbf{v},\mathbf{w}$lie in a plane?
+\[\mathbf{u}+\mathbf{v}+\mathbf{w}=\begin{bmatrix}
+    0\\0\\0
+\end{bmatrix}\quad
+2\mathbf{u}+2\mathbf{v}+\mathbf{w}=\begin{bmatrix}
+    -2\\3\\1
+\end{bmatrix}
+\]
+\[\mathbf{w}=-\mathbf{u}-\mathbf{v}
+\Rightarrow rank(\mathbf{u},\mathbf{v},\mathbf{w})=2
+\Rightarrow \mathbf{u},\mathbf{v},\mathbf{w} \text{lie in a plane}
+\]
+\section{}
+Every combination of $\mathbf{v}=(1,-2,1)$
+and $\mathbf{w}=(0,1,-1)$has components that add to what?
+Find $c$ and $d$ so that $c\mathbf{v}+d\mathbf{w}=(3,3-6)$.
+Why is $(3,3,6)$  impossible?
+
+Combination:$a\mathbf{v}+b\mathbf{w}=(a,-2a+b,a-b)$
+Their combination adds to $0$.\\
+$c=3$,$d=9$
+\section{}
+In the $xy$ plane mark all nine of these linear combinations:\\
+$c=\begin{bmatrix}
+    2\\1
+\end{bmatrix}$
+and $d=\begin{bmatrix}
+    0\\1
+\end{bmatrix}$ with $c=0,1,2$ and $d=0,1,2$.
+\begin{figure}[h]
+    \centering
+    \resizebox{0.5\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\small]
+    \draw [->, >=Stealth] (-21.25,-1) -- (-13.25,-1);
+    \draw [->, >=Stealth] (-18.75,-2.25) -- (-18.75,2.75);
+    \node [font=\large] at (-12.75,-1.25) {x};
+    \node [font=\large] at (-18.75,3.25) {y};
+    \node [font=\large] at (-19.25,-1.25) {O};
+    \draw [short] (-18.75,-2.25) -- (-18.75,-3.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-16.25,0.25);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-18.75,0.25);
+    \node at (-18.75,-1) [circ] {};
+    \draw [->, >=Stealth] (-18.75,-1) -- (-18.75,1.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-16.25,1.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-16.25,2.75);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-13.75,1.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-13.75,2.75);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-13.75,4);
+    \node [font=\small] at (-18.5,-1.25) {\textit{c=0,d=0}};
+    \node [font=\small] at (-19.25,-0.25) {\textit{c=0,d=1}};
+    \node [font=\small] at (-19.75,1.25) {\textit{c=0,d=2}};
+    \node [font=\small] at (-16.75,-0.25) {\textit{c=1,d=0}};
+    \node [font=\small] at (-17,1) {\textit{c=1,d=1}};
+    \node [font=\small] at (-17.25,2.5) {\textit{c=1,d=2}};
+    \node [font=\small] at (-14.5,0.75) {\textit{c=2,d=0}};
+    \node [font=\small] at (-13.75,2.5) {\textit{c=2,d=1}};
+    \node [font=\small] at (-14,4.5) {\textit{c=2,d=2}};
+    \end{circuitikz}
+    }%
+    \end{figure}
+\section{}
+How could you decide if the vectors $\mathbf{u}=(1,1,0)$
+ and $\mathbf{v}=(0,1,1)$ and $\mathbf{w}=(a,b,c)$
+are linearly independent or dependent?
+
+Assume that they are linearly dependent.
+Then there exist $x,y,z$ not all zero such that
+$x\mathbf{u}+y\mathbf{v}+z\mathbf{w}=\mathbf{0}$.
+\[x\mathbf{u}+y\mathbf{v}+z\mathbf{w}=\begin{bmatrix}
+    0\\0\\0
+\end{bmatrix}
+\Rightarrow x(1,1,0)+y(0,1,1)+z(a,b,c)=0
+\]
+If $z=0$,then $x=y=0$.So$ z\neq 0$.
+Let $x_1=-\frac{x}{z}$,$y_1=-\frac{y}{z}$,then
+\[
+\begin{cases}
+a=x_1\\
+b=x_1+y_1\\
+c=y_1
+\end{cases}
+\Rightarrow b=a+c\]
 \end{document}
