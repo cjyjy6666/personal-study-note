@@ -1,0 +1,40 @@
+# Fdb version 4
+["xdvipdfmx"] 1741237722.80262 "build/note.xdv" "build/note.pdf" "build/note" 1741237723.31233 0
+  "build/note.xdv" 1741237722 1184 3fe9d3a37ae9fb07bc6cd49d91ec76fd "xelatex"
+  (generated)
+  "build/note.pdf"
+  (rewritten before read)
+["xelatex"] 1741237722.27983 "d:/111learn/learning_notes/linear algebra/note/note.tex" "build/note.xdv" "note" 1741237723.3113 0
+  "build/note.aux" 1741237722 140 c5261465451a132766fc0d8387a00ec3 "xelatex"
+  "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1739800677 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1739800873 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1739800873 1524 4414a8315f39513458b80dfc63bff03a ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1739800873 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1739800873 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1739800873 1288 655e228510b4c2a1abe905c368440826 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1739800873 1300 b62933e007d01cfd073f79b963c01526 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1739800873 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1739800873 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1739800873 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1739800873 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1739800678 2222 499d61426192c39efd8f410ee1a52b9c ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty" 1739800678 4173 82ac04dfb1256038fad068287fbb4fe6 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty" 1739800678 88371 d84032c0f422c3d1e282266c01bef237 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty" 1739800678 4474 b811654f4bf125f11506d13d13647efb ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty" 1739800678 2444 0d0c1ee65478277e8015d65b86983da2 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/article.cls" 1739801365 20144 147463a6a579f4597269ef9565205cfe ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1739801365 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd" 1739801365 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1739801356 31815 59e639f95c4a3bc971cad46c02998fac ""
+  "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
+  "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
+  "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
+  "d:/111learn/learning_notes/linear algebra/note/note.tex" 1741237721 178 d115379edcebd148ff177f7be98f5dfc ""
+  "note.tex" 1741237721 178 d115379edcebd148ff177f7be98f5dfc ""
+  (generated)
+  "build/note.aux"
+  "build/note.log"
+  "build/note.xdv"
+  (rewritten before read)

@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+\title{Problem Set 1.1}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\section{}
+Under what conditions on $a,b,c,d$ is 
+$\begin{bmatrix}
+c\\d    
+\end{bmatrix}$
+a multiple m of
+$\begin{bmatrix}
+a\\b    
+\end{bmatrix}$?
+Start with the two equations$c=ma$ and $d=mb$.
+By eliminating m,find one equation connecting $a,b,c,d$.
+You can assume no zeroes in these numbers.
+\[m=\frac{c}{a}=\frac{d}{b}
+\Rightarrow ad=bc\]
+
+\section{}
+Going around a triangle from$(0,0)$to$(5,0)$to$(0,12)$to$(0,0)$,
+what are those three vectors $\mathbf{u}$,$\mathbf{v}$and$\mathbf{w}$?
+What is $\mathbf{u}+\mathbf{v}+\mathbf{w}$?
+What are their lengths?
+
+\[\mathbf{u}= \begin{bmatrix}
+5\\0    
+\end{bmatrix}\quad
+\mathbf{v}= \begin{bmatrix}
+-5\\12
+\end{bmatrix}\quad
+\mathbf{w}= \begin{bmatrix}
+0\\-12
+\end{bmatrix}
+\]
+\[\mathbf{u}+\mathbf{v}+\mathbf{w}= \begin{bmatrix}
+0\\0
+\end{bmatrix}
+\quad
+|\mathbf{u}|=5\quad
+|\mathbf{v}|=13\quad
+|\mathbf{w}|=12
+\]
+\section{}
+Describe geometrically all linear combinations of the given vectors.
+\\(a) $\begin{bmatrix}
+    1\\2\\3
+\end{bmatrix}$and$\begin{bmatrix}
+    3\\6\\9
+\end{bmatrix}$:a line.
+(b) $\begin{bmatrix}
+    1\\0\\0
+\end{bmatrix}$and$\begin{bmatrix}
+    0\\2\\3
+\end{bmatrix}$:a plane.
+\\(c) $\begin{bmatrix}
+    2\\0\\0
+\end{bmatrix}$and$\begin{bmatrix}
+    0\\2\\2
+\end{bmatrix}$and$\begin{bmatrix}
+    2\\2\\3
+\end{bmatrix}$:all of$R^3$.
+\section{}
+Draw$\mathbf{v}=\begin{bmatrix}
+    4\\1
+\end{bmatrix}$and $\mathbf{w}=\begin{bmatrix}
+    -2\\2
+\end{bmatrix}$
+and $\mathbf{v}+\mathbf{w}$and $\mathbf{v}-\mathbf{w}$
+in a single $xy$ plane.
+\begin{figure}[!ht]
+    \centering
+    \resizebox{1\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\large]
+    \draw [->, >=Stealth] (-21.25,-1) -- (-13.25,-1);
+    \draw [->, >=Stealth] (-18.75,-2.25) -- (-18.75,2.75);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-13.75,0.25);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-21.25,1.5);
+    \draw [->, >=Stealth] (-18.75,-1) -- (-16.25,2.75);
+    \draw [->, >=Stealth] (-21.25,1.5) -- (-13.75,0.25);
+    \node [font=\large] at (-12.75,-1.25) {x};
+    \node [font=\large] at (-18.75,3.25) {y};
+    \node [font=\large] at (-19.25,-1.25) {O};
+    \node [font=\large] at (-15,-0.25) {\textbf{v}};
+    \node [font=\large] at (-20.5,0.5) {\textbf{w}};
+    \node [font=\large] at (-16,2.75) {\textbf{v+w}};
+    \node [font=\large] at (-19.75,1.75) {\textbf{v-w}};
+    \end{circuitikz}
+    }%
+    \end{figure}
+\end{document}
