@@ -196,12 +196,29 @@ for key, val in my_dict.items():
 
 `range(0, 10, 2)`
 
-`r=range(10)``print(list(r[1:9:2]))`
+`r=range(10)` `print(list(r[1:9:2]))`
 
 range对象是不可变序列，但支持索引和切片操作。
 
 迭代时按需生成数字，不占内存。
 
+# functions
+`positional arguments`：参数按定义顺序传递，数量匹配
+
+`keyword arguments`:we can mix the order
+    混合使用时，不能以keyword arguments开头
+
+`default arguments`:set default value in function definition
+`None`can be used as a default argument
+mutable objects are not allowed as default arguments!But we can use `None` as default value and initialize the mutable object in the function body.
+
+`Docstrings`:for example`"""A description of the function."""`is written in a function,and we can use `help(function_name)`to get the docstring.推荐格式：功能说明+参数+返回值
+
+`pass`占位符does nothing,can be used as a placeholder for future code,like
+```python
+def to_be_writen_function():
+    pass
+```
 
 
 
