@@ -85,6 +85,40 @@ def平均冲力
 
 设质量比$N=\frac{m_0}{m_f}$,采用多级火箭，有
 \[v_f-v_0=\sum u\ln N_i=u \ln \prod N_i\]
+\subsection{角动量定理\quad 角动量守恒定律}
+def角动量（动量矩）：
+\[\vec{L}=\vec{r}\times\vec{p}\]
+其中$\vec{p}$为线动量.单位$\text{kg}\cdot\text{m}^2\cdot\text{s}^{-1}$
+
+def力矩:
+\[\vec{M}=\vec{r}\times\vec{F}\]
+则$M=Fr\sin\theta=Fr_{\perp}$
+
+质点作圆周运动时角动量大小$L=rmv=mr^2\omega$
+
+同一质点对不同定点的角动量大小不同.
+\[\frac{d\vec{L}}{dt}=\frac{d\vec{r}}{dt}\times\vec{p}
++\vec{r}\times\frac{d\vec{p}}{dt}
+=\vec{v}\times m\vec{v}+\vec{r}\times \vec{F}\]
+即\boxed{\text{角动量定理}}
+\[\vec{M}=\frac{d\vec{L}}{dt}\]
+\[\int_{t_1}^{t_2}\vec{M}dt=\vec{L_2}-\vec{L_1}\]
+其中$\int_{t_1}^{t_2}\vec{M}dt$称为冲量矩.\\
+在非惯性参考系中，角动量定理还需考虑惯性力的力矩.
+
+当$\vec{M}=\vec{0}$时，有$\vec{L}=\vec{r}\times \vec{p}$为常矢量，
+这是\boxed{\text{角动量守恒定律}}.\\
+何时$\vec{M}=\vec{0}$?当$\vec{F}=\vec{0}$或$\vec{r}\parallel\vec{F}$
+
+def有心力：质点所受力的作用线始终通过某个固定点，因此对力心的力矩为$\vec{0}$
+
+可以在分量上用角动量守恒定律.角动量守恒定律是普适的.
+
+质点系的角动量定理和角动量守恒定律：用合外力矩和系统总角动量.
+\subsection{功和能}
+def功：
+\[A_{ab}=\int_a^b \vec{F}\cdot d\vec{r}\]
+功率$P=\vec{F}\cdot \vec{v}$，动能定理
 \section{Exercises}
 \subsection{课堂例题}
 \subsubsection{第一章}
@@ -184,5 +218,14 @@ F-mg=m\frac{dv}{dt}-u\frac{dm}{dt}=v_0\frac{dm}{dt}\]
 \noindent 解二：动量定理
 \[\int_0^t(F-\rho gy)dt=\rho lv_0
 \Rightarrow I_F=\int_0^tFdt=\frac{\rho gl^2}{2v_0}+\rho v_0l\]
+
+例8：
+用角动量守恒定律推导开普勒第二定律.
+\[dS=\frac{1}{2}\lvert \vec{r}\times d\vec{r}\rvert
+\Rightarrow \frac{dS}{dt}=\frac{1}{2}\lvert \vec{r}\times \frac{d\vec{r}}{dt}\rvert
+=\frac{1}{2}\lvert \vec{r}\times \vec{v}\rvert
+=\frac{\vec{L}}{2m}
+\]\\
+$\vec{L}$为常矢量，则$\frac{dS}{dt}$为常量，且行星的运动为平面运动（$\vec{L}$方向不改变）
 
 \end{document}

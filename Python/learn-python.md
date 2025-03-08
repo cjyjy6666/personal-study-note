@@ -305,3 +305,127 @@ if new_file_path.exists():
 注意`unlink`的效果：
 - 路径指向普通文件，删除文件
 - 符号链接，删除符号链接，不影响目标文件
+# classes
+```python
+class MyClass:
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2
+    def method1(self):
+        # Method implementation
+        pass
+    def method2(self):
+        # Method implementation
+        pass
+```
+Methods:functions defined inside a class
+`__init__()`:a special method that is called when an object is created from a class. It initializes the object's attributes.
+`self`represents the instance itself,it's the first parameter in a method definition,it stores instance variables listed after self as arguments.
+`__str__()`:a special method that returns a string representation of an object. It's used when you print an instance.
+```python
+    def __str__(self):
+        return f"a_descriptive_string{self.param}"
+```
+
+`class variables`:shared among all instances of a class.We can define them before `__init__`
+Change class variables:using `ClassName.variable_name`.存储数据库连接配置、instance计数器等场景下可用类变量.instance variables即实例变量
+**封装**(private vs public):
+命名约定：`_var`表示私有成员,`__var`表示强私有成员(访问名称_ClassName__var)(to be avoided)
+```python
+class Person:
+    def __init__(self,age)
+        self._age=age
+    
+    @property
+    def age(self):
+        return self._age #受控访问入口
+    
+    def grow(self): #指定操作方法
+        self._age+=1
+
+person=Person(20)
+person.grow()
+print(person.age)
+```
+`@property`装饰器：将方法转换为属性，允许通过属性访问方法.Readable but not writable.
+
+另有:双下划线+异常抛出
+```python
+class SecureData:
+    def __init__(self):
+        self.secret_data = "This is a secret!"
+    @property
+    def secret(self):
+        raise AttributeError("Access denied!")
+```
+另有`@attribute.setter`装饰器，显式定义可写属性
+`@attribute.deleter`装饰器，显式定义可删除属性
+
+**inheritance**（继承）
+类之间的层级关系，实现代码复用和功能拓展
+`class ChildClass(ParentClass):`
+子类自动继承父类所有方法、属性
+子类可以重写父类方法
+子类可以添加新方法和属性
+`super().father_method()`调用父类方法
+
+**polymorphism**（多态）
+有统一method接口(方法同名、参数兼容)
+运行时动态派发，例如可以对instance对象的list进行循环
+# exceptions
+**try-except structure**
+handle potential exceptions in a desired way
+```python
+file_name="not_existing.txt"
+try:
+    with open(file_name) as my_file:
+        print("File opened successfully!")
+except FileNotFoundError:
+    print(f"File '{file_name}' not found.")
+```
+**多异常处理**：连用几个except语句
+```python
+def calculate_division(a,b)
+    result=0
+    try:
+        result=a/b
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero!")
+    except TypeError:
+        print("Error: Invalid data types!")
+    except Exception as e:#要有Exception兜底!
+        print(f"An unexpected error occurred: {e}")
+    return result
+```
+**嵌套异常处理**:嵌套try-except结构
+```python
+def func():
+    try:
+        result = 10 / 0
+    except ZeroDivisionError:
+        print("Zero not allowed!!")
+
+try:
+    func()
+except Exception as e:
+    print(f"Oops!{e}")
+```
+**custom exceptions**
+```python
+class NegativeNumbersNotSupported(Exception):
+    """自定义异常类"""
+    def __init__(self, message, error_code):
+        super().__init__(message, error_code)  # 调用父类 Exception 的 __init__
+        self.error_code = error_code  # 扩展自定义属性
+
+# 使用示例
+try:
+    raise NegativeNumbersNotSupported("负数错误", 400)
+except NegativeNumbersNotSupported as e:
+    print(e.args)        # 输出：('负数错误', 400)
+    print(e.error_code)  # 输出：400
+```
+Exception类是内置异常体系的核心基类，异常类的继承层级不能错乱
+`raise`用于抛出异常，但注意使用raise时要对抛出的异常类实例化(`raise Exception("Error message")`)(arguments are required)
+
+
