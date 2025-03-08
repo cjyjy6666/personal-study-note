@@ -219,7 +219,89 @@ mutable objects are not allowed as default arguments!But we can use `None` as de
 def to_be_writen_function():
     pass
 ```
+# file I/O
+## working with paths
+使用标准库`pathlib`进行路径操作
+①面向对象②自动处理操作系统路径差异
+**accessing the path of current file**:
+```python
+from pathlib import Path
+file_path=Path("filename").resolve()
+#In .py files,we can get the path of the current file by using:
+Path(__file__)
+```
+其中`resolve()`函数：
+①基于当前工作目录，将相对路径转换为绝对路径
+②符号链接解析
+③路径规范化
+而`absolute()`函数依赖于工作目录且无法实现符号链接解析和路径规范化
+**目录操作**
+获取当前工作目录：`current_dir=Path.cwd()`
+获取父目录：`current_dir=current_file.parent`
+获取文件名：`current_file.name`
+获取文件扩展名：`current_file.suffix`
+获取文件名（不含扩展名）：`current_file.stem`
+路径拼接操作符`/`
+例如`data_dir = current_dir.parent / "data"`
+**checking if path exists**
+`path.exists()`检查路径是否存在
+`path.is_dir()`检查路径是否为目录
+`path.is_file()`检查路径是否为文件
+**Symbolic links符号链接**
+数据指针，记录目标路径
+```bash
+#创建符号链接(windows需要管理员权限)
+ln -s originial_path link_path
+```
+In python:
+```python
+from pathlib import Path
 
+src = Path("data/important.csv")
+link = Path("shortcut.csv")
 
+if not link.exists():
+    link.symlink_to(src)  # 类似 ln -s
+link.unlink()#删除符号链接
+```
+use`.issymlink()`to check if a path is a symbolic link.
+use`.resolve()`to get the target(original) path of a symbolic link.
+## reading files
+Using `with` statement to obtain a context manager is preferred.
+>context manager：用于资源管理，通过with语句自动化资源管理，处理成对出现的操作，如打开文件、获取锁、连接数据库等，保证退出context时自动释放资源。
+```python
+file_path=data_dir/"example_file.txt"
+with open(file_path,"r") as example_file:
+    for line in example:
+        print(line.strip())
+#用with语句自动实现文件关闭，当然也可以用file.close()
+```
+文件打开模式：
+- `"r"` 只读（默认） 文件不存在时抛出异常
+- `"r+"` 读写 文件不存在时抛出异常
+- `"w"` 只写（清空原内容） 文件不存在时创建
+- `"a"` 追加（保留原内容） 文件不存在时创建
+- `"x"` 只写（清空原内容） 文件不存在时创建，文件已存在时抛出异常
+- `"b"` 二进制模式（用于非文本文件）
+- `"t"` 文本模式（默认）
+读取方法：
+- `for line in file:`逐行读取文件内容
+- `file.read()`读取整个文件内容（小文件）
+- `file.readline()`逐行读取文件内容
+- `file.readlines()`逐行读取文件内容，返回一个列表
+- `file.read(n)`读取n个字符（二进制文件分块读取可用）
+## writing files
+```python
+new_file_path=data_dir/"new_file.txt"
 
-
+with open(new_file_path,"w") as new_file:
+    new_file.write("Content")
+```
+Also we can delete the file by:
+```python
+if new_file_path.exists():
+    new_file_path.unlink()
+```
+注意`unlink`的效果：
+- 路径指向普通文件，删除文件
+- 符号链接，删除符号链接，不影响目标文件
