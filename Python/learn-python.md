@@ -13,7 +13,7 @@ f-strings:
 
 `str="sep".join([str1,str2,str3])`
 
-`str.upper()``str.lower()``str.title()`
+`str.upper()` `str.lower()` `str.title()`
 
 `str.strip()`去除字符串两端的空白字符
 
@@ -122,7 +122,7 @@ dict1 = {"value1": 1.6, "value2": 10, "name": "John Doe"}
 dict2 = dict(value1=1.6, value2=10, name="John Doe")
 ```
 
-`dict.keys()``dict.values()``dict.items()`返回动态变化的视图对象
+`dict.keys()` `dict.values()` `dict.items()`返回动态变化的视图对象
 
 
 
@@ -427,5 +427,29 @@ except NegativeNumbersNotSupported as e:
 ```
 Exception类是内置异常体系的核心基类，异常类的继承层级不能错乱
 `raise`用于抛出异常，但注意使用raise时要对抛出的异常类实例化(`raise Exception("Error message")`)(arguments are required)
+# modules and packages
+## structure
+module（模块）:Python source code file(.py)
+package(包):directory containing python modules and subpackages(with`__init__.py`file)
+structure of a package:
+```bash
+my_package/          # 顶级包
+├── __init__.py      # 包标识文件
+├── submodule1.py    # 子模块
+└── subpackage/      # 子包
+    ├── __init__.py
+    └── submodule2.py
+```
+## importing
+绝对导入`from pkg.subpkg.module import name`
+(importing functions or classes)
+模块导入(recommended)
+`from pkg.subpkg import module`usage:`module.name`
+包导入
+`import pkg.subpkg.module`usage:`pkg.subpkg.module.name`
+相对导入（包内部）
+`from . import module` `from .. import pkg`
+or`..pkg` `.pkg`
+`.`表示当前目录 `..`表示上一级目录
 
 
