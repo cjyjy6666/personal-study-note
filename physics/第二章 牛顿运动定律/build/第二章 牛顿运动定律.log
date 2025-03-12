@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  8 MAR 2025 17:02
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  12 MAR 2025 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,39 +357,48 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  [1
 
 ] [2] [3]
-Overfull \hbox (67.5746pt too wide) detected at line 142
+File: 1.jpg Graphic file (type bmp)
+<1.jpg>
+ [4]
+Overfull \hbox (67.5746pt too wide) detected at line 209
 [] \OMS/cmsy/m/n/10 ) [] ) []
  []
 
 File: eg2.jpg Graphic file (type bmp)
 <eg2.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: eg3-1.jpg Graphic file (type bmp)
 <eg3-1.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4]
+[5]
 File: eg3-2.jpg Graphic file (type bmp)
 <eg3-2.jpg>
-File: eg4.jpg Graphic file (type bmp)
-<eg4.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] [7] (build/第二章 牛顿运动定律.aux)
+File: eg4.jpg Graphic file (type bmp)
+<eg4.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7] [8] (build/第二章 牛顿运动定律.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7515 strings out of 474773
- 212580 string characters out of 5761289
- 1933842 words of memory out of 5000000
- 29570 multiletter control sequences out of 15000+600000
+ 7548 strings out of 474773
+ 214141 string characters out of 5761289
+ 1934842 words of memory out of 5000000
+ 29602 multiletter control sequences out of 15000+600000
  563831 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,8n,97p,418b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/第二章 牛顿运动定律.xdv (7 pages, 38864 bytes).
+Output written on build/第二章 牛顿运动定律.xdv (8 pages, 49508 bytes).

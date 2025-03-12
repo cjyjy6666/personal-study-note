@@ -111,6 +111,9 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT build/第二章 牛顿运动定律.xdv
+INPUT ./1.jpg
+INPUT ./1.jpg
+INPUT ./1.jpg
 INPUT ./eg2.jpg
 INPUT ./eg2.jpg
 INPUT ./eg2.jpg

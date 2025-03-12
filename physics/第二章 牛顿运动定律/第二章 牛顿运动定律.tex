@@ -117,8 +117,75 @@ def有心力：质点所受力的作用线始终通过某个固定点，因此�
 质点系的角动量定理和角动量守恒定律：用合外力矩和系统总角动量.
 \subsection{功和能}
 def功：
-\[A_{ab}=\int_a^b \vec{F}\cdot d\vec{r}\]
-功率$P=\vec{F}\cdot \vec{v}$，动能定理
+\[A_{ab}=\int_a^b \vec{F}\cdot d\vec{r}=
+\int_a^b F\lvert d\vec{r} \rvert \cos\alpha=
+\int_a^b F \cos\alpha ds\]
+功率$P=\vec{F}\cdot \vec{v}$，动能定理$A=\Delta E_k$
+\subsection{保守力、势能}
+保守力：对质点做功大小只与初末位置有关，与路径无关，
+如重力、弹力、万有引力\\
+非保守力做功与路径有关，如摩擦力、粘滞力等
+
+\underline{\text{保守力环流为0}}:
+\[
+\oint_L \vec{F}\cdot d\vec{r}=0
+\]
+
+$E_p$为势能，则\underline{\text{保守力做功等于势能的\textbf{负}变化}}：
+\[A_{ab}=\int_a^b \vec{F}\cdot d\vec{r}=-(E_{p_b}-E_{p_a})\]
+
+弹性势能$E_p=\frac{1}{2}kx^2$,
+重力势能$E_p=mgy$,
+万有引力势能$E_p=-\frac{GMm}{r}$
+\begin{center}
+    \includegraphics[width=0.2\textwidth]{1.jpg}
+\end{center}
+对万有引力$F=\frac{GMm}{r^2}$,$dA=F\cos\theta\lvert d\vec{r} \rvert$,
+则位矢长度增量$dr=\lvert d\vec{r} \rvert\cos(\pi-\theta)
+=-\lvert d\vec{r} \rvert\cos\theta$，
+于是$dA=-G\frac{mM}{r^2}dr$，故
+$A_{ab}=\int_a^b -G\frac{mM}{r^2}dr=-[(-\frac{GmM}{r_b})-(-\frac{GmM}{r_a})]$
+
+势能是属于系统的.
+
+由势能求保守力：
+\[dA=-dE_p(x,y,z)=-(\frac{\partial E_p}{\partial x}dx+\frac{\partial E_p}{\partial y}dy+\frac{\partial E_p}{\partial z}dz)
+=F_x dx+F_y dy+F_z dz\]
+\[\Rightarrow
+(F_x+\frac{\partial E_p}{\partial x})dx+
+(F_y+\frac{\partial E_p}{\partial y})dy+
+(F_z+\frac{\partial E_p}{\partial z})dz=0
+\]
+\[
+\Rightarrow
+F_i=-\frac{\partial E_p}{\partial i}
+\]记为：
+\[\boxed{\vec{F}=-\nabla E_p}\]
+其中$\nabla=\frac{\partial}{\partial x}\vec{i}+\frac{\partial}{\partial y}\vec{j}+\frac{\partial}{\partial z}\vec{k}$
+是哈密顿算符（梯度算符）
+
+若力$\vec{F}$是保守力，则有
+\[\boxed{\frac{\partial F_x}{\partial y}=\frac{\partial F_y}{\partial x}}=
+-\frac{\partial^2 E_p}{\partial x\partial y}
+\]
+在已知$\vec{F}$分量时，可以此作为必要条件判断是否为保守力.\\
+此外判断保守力的一般方法：1.做功与路径无关；2.环流为0；3.力是势能的负梯度.
+
+双原子分子势能：$E_p=\frac{A_m}{r^m}-\frac{A_n}{r^n}$,其中$m>n$.
+\subsection{功能原理、机械能守恒定律}
+质点系的动能定理：
+\[A_\text{外}+A_\text{内}=\Delta E_k\]
+讨论内力的功.系统内力总是成对出现,$\vec{f_1}=-\vec{f_2}$
+,则$\Delta W=\vec{f_1}\cdot \Delta \vec{r_1}+\vec{f_2}\cdot \Delta \vec{r_2}
+=\vec{f_2}(\Delta \vec{r_2}-\Delta \vec{r_1})=\vec{f_2}\cdot\Delta\vec{r_{21}}$
+，故这对力做功为其中一个力沿两物体相对移动路径所做功.
+
+机械能$E=E_k+E_p$
+
+\textbf{功能原理}：
+\[\boxed{A_\text{外力}+A_\text{非保守内力}=\Delta E}\]
+
+于是当$A_\text{外力}+A_\text{非保守内力}=0$时有$E=constant$，这是机械能守恒定律.
 \section{Exercises}
 \subsection{课堂例题}
 \subsubsection{第一章}
