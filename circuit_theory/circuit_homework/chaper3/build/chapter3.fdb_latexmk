@@ -1,15 +1,15 @@
 # Fdb version 4
-["xdvipdfmx"] 1741770287.3957 "build/chapter3.xdv" "build/chapter3.pdf" "build/chapter3" 1741770287.9458 0
-  "build/chapter3.xdv" 1741770287 8908 9b8af7a14302a3f05a4affb0147a2474 "xelatex"
+["xdvipdfmx"] 1741778577.15547 "build/chapter3.xdv" "build/chapter3.pdf" "build/chapter3" 1741778577.70385 0
+  "build/chapter3.xdv" 1741778577 8748 7307bbc738898482c3a9f59154d2eca1 "xelatex"
   (generated)
   "build/chapter3.pdf"
   (rewritten before read)
-["xelatex"] 1741770286.32652 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper3/chapter3.tex" "build/chapter3.xdv" "chapter3" 1741770287.9422 0
+["xelatex"] 1741778576.04286 "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper3/chapter3.tex" "build/chapter3.xdv" "chapter3" 1741778577.69895 0
   "3-21.jpg" 1741766819 39065 86ebddb1a9365c4d8593e78416cc906b ""
   "3-22.jpg" 1741766819 60989 3df87b1e0f591b749dbd77a68dfe4d1e ""
   "3-23.jpg" 1741766819 66777 7b1807c84412e07708484ffeb9e7eb9e ""
   "3-8.jpg" 1741766819 61361 95a521b9e7903872077143bbc45b9cde ""
-  "build/chapter3.aux" 1741770287 32 ab05033ccbb38b00a31b200ccedf8001 "xelatex"
+  "build/chapter3.aux" 1741778577 32 ab05033ccbb38b00a31b200ccedf8001 "xelatex"
   "c:/Windows/Fonts/msyh.ttc" 1733923000 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
@@ -159,8 +159,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
   "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
-  "chapter3.tex" 1741770284 2316 cfeb63709e206c38c3d1144eba25e224 ""
-  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper3/chapter3.tex" 1741770284 2316 cfeb63709e206c38c3d1144eba25e224 ""
+  "chapter3.tex" 1741778575 2330 b74142356909861ffda36c27b3c0d7d8 ""
+  "d:/111learn/learning_notes/circuit_theory/circuit_homework/chaper3/chapter3.tex" 1741778575 2330 b74142356909861ffda36c27b3c0d7d8 ""
   (generated)
   "build/chapter3.aux"
   "build/chapter3.log"
