@@ -451,5 +451,18 @@ my_package/          # 顶级包
 `from . import module` `from .. import pkg`
 or`..pkg` `.pkg`
 `.`表示当前目录 `..`表示上一级目录
+别名导入
+add `as some_name` after the module name
+
+# debugging
+use pdb debugger
+
+setting breakpoints:
+标准Python:`breakpoint()`or`import pdb` `pdb.set_trace()`
+In Jupyter:`from IPython.core.debugger import Pdb` `Pbd().set_trace()`
+There are some useful commands.(ignored currently)
+# sth in Python Standard Library
+## dates and times
+
 
 
