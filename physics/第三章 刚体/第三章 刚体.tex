@@ -1,0 +1,61 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{ctex}
+\usepackage{graphicx}
+
+\title{第三章 刚体}
+\author{华中科技大学大学物理A}
+\date{\today}
+\begin{document}
+\maketitle
+\section{notes}
+\subsection{刚体的平动和转动}
+def刚体：物体上各点的相对位置不变，受力时大小和形状都保持不变.
+
+def刚体平动:任两点连线运动时平行，各质点运动状态完全相同.
+\\于是用质心来代表整体运动.质心可能既无质量、又未受力.
+质心计算：
+\[
+\vec{r_c}=\frac{\sum m_i\vec{r_i}}{\sum m_i}
+=\frac{\int\vec{r}dm}{M}
+\]
+可在分量上计算质心坐标值.刚体密度均匀、形状对称，则质心即为几何对称中心.
+注意质心$\neq$重心，重心只有在重力场中才存在.
+\\质心速度$\vec{v_c}=\frac{\sum m_i\vec{v_i}}{M}$
+，质心加速度$\vec{a_c}=\frac{\sum m_i\vec{a_i}}{M}$
+，质心运动定理：$\vec{F_\text{合外}}=M\vec{a_c}$
+
+{\fontsize{8pt}{8pt}\selectfont
+例：求半径为$R$的半圆形均匀铁丝质心.
+\[\lambda=\frac{m}{\pi R}\quad dm=\lambda d\theta R=\frac{m}{\pi}d\theta
+\]
+\[x_c=\frac{\int xdm}{m}=\frac{\int_0^\pi R\cos\theta md\theta}{\pi m}=0
+\quad y_c=\frac{\int ydm}{m}=\frac{\int_0^\pi R\sin\theta md\theta}{\pi m}=\frac{2}{\pi}R\]
+
+故质心$(0,\frac{2}{\pi}R)$
+}
+
+def定轴转动：转轴位置、方向固定不变.\\
+角位置$\vec{\theta}$，角速度$\vec{\omega}$，角加速度$\vec{\alpha}$.\\
+角量与线量:
+\[\vec{v}=\vec{\omega}\times\vec{r}\]
+\[\boxed{\vec{a_{\tau}}=\vec{\alpha}\times\vec{r}}\quad\vec{a_n}=\vec{\omega}\times\vec{v}\]
+\[\vec{a}=\vec{\alpha}\times\vec{r}+\vec{\omega}\times\vec{v}\]
+\subsection{刚体定轴转动定律}
+$\vec{F}=\vec{F_{//}}+\vec{F_\perp}$，定轴转动时只需考虑$\vec{F_{\perp}}$(垂直于转轴的分力)的力矩$M_z$
+\\力$F$相对于转轴($z$)的力矩:
+\[\vec{M_z}=\vec{r}\times\vec{F_\perp}\quad M_z=F_\perp r\sin\theta\]
+其中$r\sin\theta$即为力臂.
+
+{
+\fontsize{8pt}{8pt}\selectfont
+刚体上质元的角动量$\vec{L_i}=\vec{R_i}\times m_i\vec{v_i}=m_i(z_i\vec{k}-r_i\vec{n}\times r_i\omega\vec{\tau_i})
+=m_i\omega r_i(z_i\vec{k}\times \vec{\tau_i}+r_i\vec{k})$,则
+$M_z=\vec{M}\cdot\vec{k}=\frac{d\sum \vec{L_i}}{dt}\cdot\vec{k}=\frac{d(\sum m_ir_i^2\omega)}{dt}=\alpha\sum m_ir_i^2$
+}
+
+let:$J=\sum m_ir_i^2$(转动惯量)，则
+\[\boxed{\vec{M}=J\vec{\alpha}}\]这是\textbf{刚体定轴转动定律}.角动量的$z$分量为刚体对$z$轴的角动量,$\boxed{L=J\omega}$
+\\$J$反应刚体的转动惯性.总质量一定，质量分布离轴越远，$J$越大.
+\subsection{转动惯量的计算}
+\end{document}
