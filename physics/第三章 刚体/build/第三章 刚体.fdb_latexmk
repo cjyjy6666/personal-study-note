@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1742050859.2691 "build/第三章 刚体.xdv" "build/第三章 刚体.pdf" "build/第三章 刚体" 1742050859.85164 0
-  "build/第三章 刚体.xdv" 1742050859 13324 963bd27f3feb22825b2f1e191a13d8a7 "xelatex"
+["xdvipdfmx"] 1742213892.7295 "build/第三章 刚体.xdv" "build/第三章 刚体.pdf" "build/第三章 刚体" 1742213893.3636 0
+  "build/第三章 刚体.xdv" 1742213892 16400 268f4cd340138d081d39475a87115d8e "xelatex"
   (generated)
   "build/第三章 刚体.pdf"
   (rewritten before read)
-["xelatex"] 1742050858.47601 "d:/111learn/learning_notes/physics/第三章 刚体/第三章 刚体.tex" "build/第三章 刚体.xdv" "第三章 刚体" 1742050859.84992 0
-  "build/第三章 刚体.aux" 1742050859 473 6b0cc904fd0e7e2bbfec730d9a7dba55 "xelatex"
+["xelatex"] 1742213891.8481 "d:/111learn/learning_notes/physics/第三章 刚体/第三章 刚体.tex" "build/第三章 刚体.xdv" "第三章 刚体" 1742213893.36142 0
+  "build/第三章 刚体.aux" 1742213892 473 6b0cc904fd0e7e2bbfec730d9a7dba55 "xelatex"
   "c:/Windows/Fonts/msyh.ttc" 1733923000 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739801133 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1739800677 1004 54797486969f23fa377b128694d548df ""
@@ -65,8 +65,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1739800644 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1739802524 10849662 21ca56e8faa458d558fcdf28a4f4030e ""
   "c:/texlive/2024/texmf.cnf" 1739802388 713 e69b156964470283e0530f5060668171 ""
-  "d:/111learn/learning_notes/physics/第三章 刚体/第三章 刚体.tex" 1742050857 2694 afa28fb8bcd8bbb63b86521e0335e73f ""
-  "第三章 刚体.tex" 1742050857 2694 afa28fb8bcd8bbb63b86521e0335e73f ""
+  "d:/111learn/learning_notes/physics/第三章 刚体/第三章 刚体.tex" 1742213891 3384 ce3cbdd80ee4ab09c4321adf353a95d4 ""
+  "第三章 刚体.tex" 1742213891 3384 ce3cbdd80ee4ab09c4321adf353a95d4 ""
   (generated)
   "build/第三章 刚体.aux"
   "build/第三章 刚体.log"
