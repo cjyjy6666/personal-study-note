@@ -39,7 +39,7 @@ def定轴转动：转轴位置、方向固定不变.\\
 角位置$\vec{\theta}$，角速度$\vec{\omega}$，角加速度$\vec{\alpha}$.\\
 角量与线量:
 \[\vec{v}=\vec{\omega}\times\vec{r}\]
-\[\boxed{\vec{a_{\tau}}=\vec{\alpha}\times\vec{r}}\quad\vec{a_n}=\vec{\omega}\times\vec{v}\]
+\[\boxed{\vec{a_{\tau}}=\vec{\alpha}\times\vec{r}} \quad\vec{a_n}=\vec{\omega}\times\vec{v}\]
 \[\vec{a}=\vec{\alpha}\times\vec{r}+\vec{\omega}\times\vec{v}\]
 \subsection{刚体定轴转动定律}
 $\vec{F}=\vec{F_{//}}+\vec{F_\perp}$，定轴转动时只需考虑$\vec{F_{\perp}}$(垂直于转轴的分力)的力矩$M_z$
@@ -91,4 +91,25 @@ let:$J=\sum m_ir_i^2$(转动惯量)，则
 \[\boxed{J=J_c+md^2}\]
 
 如何选取质量元？看离转轴的距离！
+\subsection{刚体转动的功和能}
+刚体的转动动能
+\[E_k=\frac{1}{2}J\omega^2\]
+力矩的功
+\[A=\int_{\theta 1}^{\theta 2}\vec{M}\cdot d\vec{\theta}\]
+于是有动能定理:
+\[A=\frac{1}{2}J\omega_2^2-\frac{1}{2}J\omega_1^2\]
+
+刚体的重力势能：将全部质量集中在质心
+\subsection{刚体角动量}
+\[\boxed{L=J\omega}\]
+刚体绕定轴的角动量定理
+\[\vec{M}dt=d\vec{L}\]
+\subsection{进动}
+def进动:高速自旋物体的转轴在空间转动
+
+产生原因：重力的力矩
+\[|d\vec{L}|=L\sin\theta d\varphi \quad M=\frac{|d\vec{L|}}{dt}=L\sin\theta\omega_p\]
+故进动角速度为:
+\[\boxed{\omega_p=\frac{M}{L\sin\theta}=\frac{M}{J\omega\sin\theta}}\]
+例如来复线(子弹飞行姿态控制)等
 \end{document}

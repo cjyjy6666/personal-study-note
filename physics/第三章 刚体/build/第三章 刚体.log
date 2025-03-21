@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  17 MAR 2025 20:18
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  21 MAR 2025 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,7 +356,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
  [1
 
-] [2] (build/第三章 刚体.aux)
+] [2] [3] (build/第三章 刚体.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -371,4 +371,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  93i,6n,97p,410b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/第三章 刚体.xdv (2 pages, 16400 bytes).
+Output written on build/第三章 刚体.xdv (3 pages, 19956 bytes).
