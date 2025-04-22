@@ -1,0 +1,82 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{ctex}
+\usepackage{graphicx}
+
+\title{第六章 气体动理论}
+\author{华中科技大学大学物理A}
+\date{\today}
+\begin{document}
+\maketitle
+\section{notes}
+孤立、封闭、开放系统
+\subsection{理想气体状态方程与微观模型}
+理想气体物态方程:
+\[pV=\nu RT\]
+其中$R=8.13J/mol\cdot K$
+
+令$k=\frac{R}{N_A}=1.38\times10^{-23}J/K$为玻尔兹曼常数，于是方程可以写成$pV=NkT$或:
+\[\boxed{p=nkT}\]
+其中$n=\frac{N}{V}$为分子密度
+
+\textit{混合气体的物态方程}
+
+道尔顿分压定律:压强为分压强之和\\
+写成物态方程:$n$为各组之和,$M$用平均摩尔质量
+
+\textit{理想气体压强}
+\[P=\frac{2}{3}n\overline{\varepsilon_{kt}}\]
+其中分子平动动能平均值
+\[\overline{\varepsilon_{kt}}=\frac{1}{2}m_f\bar{v^2}\]
+于是结合状态方程有:
+\[\overline{\varepsilon_t}=\frac{3}{2}kT\]
+由$\frac{1}{2}m_f\bar{v^2}=\frac{3}{2}kT$得方均根(RMS)速率
+\[\sqrt{\overline{v^2}}=\sqrt{\frac{3kT}{m_f}}=\sqrt{\frac{3RT}{M}}\]
+\subsection{能均分定理与理想气体内能}
+气体分子自由度$i$
+
+\begin{itemize}
+\item 单原子分子:$t_{\text{平动}}=3$,$i=3$
+\item 刚性双原子分子:$t_{\text{平动}}=3$,$r_{\text{转动}}=2$,$i=5$
+\item 非刚性双原子分子:$t_{\text{平动}}=3$,$r_{\text{转动}}=3$,$s_{\text{振动}}=1$,$i=6$
+\item 刚性多原子分子:$t_{\text{平动}}=3$,$r_{\text{转动}}=3$,$i=6$
+\item 非刚性多原子分子:$t_{\text{平动}}=3$,$r_{\text{转动}}=3$,$s_{\text{振动}}=3n-6$,$i=3n$
+\end{itemize} 
+\textbf{能均分定理}:每个自由度都具有$\frac{1}{2}kT$的平均动能\\
+于是具有$i$个自由度的分子总平均动能为$\overline{\varepsilon_k}=\frac{i}{2}kT$
+
+另外每个分子还有势能$\varepsilon_p$
+\[\overline{\epsilon}=\overline{\epsilon_k}+\overline{\epsilon_p}=\frac{i}{2}kT+\frac{s}{2}kT\]
+
+内能是温度的单值函数！
+\subsection{实际气体物态方程}
+\textbf{Van Der Waals equation}
+
+$1mol$气体:
+\[(p+\frac{a}{V_m^2})(V_m-b)=RT\]
+一般的:
+\[(p+\frac{m^2}{M^2}\frac{a}{V^2})(V-\frac{m}{M}b)=\frac{m}{M}RT\]
+\subsection{麦克斯韦速率分布}
+速率分布函数$f(v)$有
+\[\boxed{f(v)dv=\frac{dN}{N}}\]
+\[f(v)=4\pi\left(\frac{m_f}{2\pi kT}\right)^{\frac{3}{2}}e^{-\frac{m_fv^2}{2kT}}v^2\]
+
+速率分布函数的归一化条件
+\[\int_0^{+\infty}f(v)dv=1\]
+\textbf{分子的三个特征速率}
+
+\textit{平均速率}(所有分子速率算数平均值)
+\[\bar{v}=\sqrt{\frac{8kT}{\pi m_f}}=\sqrt{\frac{8RT}{\pi M}}\]
+
+\textit{方均根速率}(RMS vetolocity)
+\[v_{rms}=\sqrt{\frac{3kT}{m_f}}=\sqrt{\frac{3RT}{M}}\]
+
+\textit{最概然速率}(when $f(v)$ reaches max)
+\[v_{p}=\sqrt{\frac{2kT}{m_f}}=\sqrt{\frac{2RT}{M}}\]
+
+relationship:
+\[v_p<\bar{v}<v_{rms}\]
+\subsection{Maxwell\&Boltzmann distribution functions}
+
+
+\end{document}
