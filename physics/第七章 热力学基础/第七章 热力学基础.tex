@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{ctex}
+\usepackage{graphicx}
+
+\title{第七章 热力学基础}
+\author{华中科技大学大学物理A}
+\date{\today}
+\begin{document}
+\maketitle
+\section{notes}
+\subsection{热力学第一定律}
+\[\mathrm{d} Q=\mathrm{d}E+\mathrm{d}A\]
+含义分别为系统吸收的热量、系统内能的增量、系统对外做的功
+
+在\textbf{准静态过程}中，有:
+\[A=\int_{V1}^{V2} P\mathrm{d}V\]
+在非静态过程中则不一定,例如气体自由膨胀时做功一定为0
+
+热容$C$的单位为$\mathrm{J}\cdot\mathrm{K}$,定义式为
+\[C=\frac{\mathrm{d}Q}{\mathrm{d}T}\]
+
+定义摩尔热容
+\[C_m=\frac{1}{\nu}\frac{\mathrm{d}Q}{\mathrm{d}T}\]
+也可以定义比热容(质量热容)为单位质量气体的热容
+
+定压热容、定容热容
+\subsection{理想气体的热容}
+容易推导\textbf{迈耶公式}
+\[\boxed{C_{p,m}=C_{v,m}+R}\]
+于是定义气体的摩尔热容比
+\[\boxed{\gamma=\frac{C_{p,m}}{C_{v,m}}=1+\frac{R}{C_{v,m}}}\]
+又由理想气体:
+\[E_m=\frac{1}{2}(t+r+2s)RT\]
+于是\[C_{v,m}=\frac{\mathrm{d}E_m}{\mathrm{d}T}=\frac{1}{2}(t+r+2s)R\]
+
+定义物体在相变过程中吸收的热量叫做\textbf{潜热},例如熔化热和汽化热
+\subsection{热力学第一定律对理想气体的应用}
+理想气体所经历的\textbf{任意一个过程},内能增量均满足
+\[\Delta E=\nu C_{V,m}\Delta T\]
+
+对于\textbf{准静态}绝热过程,有绝热方程
+\[pV^\gamma=C_1\]
+再利用$pV=\nu RT$,也可以写成
+\[TV^{\gamma-1}=C_2\]
+\[p^{\gamma-1}T^{-\gamma}=C_3\]
+
+绝热过程中功的表达式为\[A=-\Delta E=-\nu C_{V,m}\Delta T\]
+对于\textbf{准静态}绝热过程,有
+\[A=\frac{p_1V_1-p_2V_2}{\gamma-1}\]
+
+可以用一个统一的公式来刻画理想气体等值过程
+\[pV^n=\mathrm{const.}\]
+
+\end{document}
