@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  24 APR 2025 16:09
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.17)  29 APR 2025 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,19 +356,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
  [1
 
-] [2] (build/第七章 热力学基础.aux)
+] [2] [3] (build/第七章 热力学基础.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7346 strings out of 474773
- 204972 string characters out of 5761289
- 1927842 words of memory out of 5000000
- 29415 multiletter control sequences out of 15000+600000
+ 7382 strings out of 474773
+ 207168 string characters out of 5761289
+ 1929842 words of memory out of 5000000
+ 29451 multiletter control sequences out of 15000+600000
  563775 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,6n,97p,416b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/第七章 热力学基础.xdv (2 pages, 9516 bytes).
+Output written on build/第七章 热力学基础.xdv (3 pages, 13696 bytes).
