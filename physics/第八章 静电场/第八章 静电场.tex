@@ -27,6 +27,9 @@
 当$r>>l$时,
 \[E=-\frac{p}{4\pi\varepsilon r^3}\]
 
+长为$L$，电荷密度$\lambda$的\textbf{均匀细棒}中垂面上场强：
+\[E=\frac{\lambda L}{4\pi\varepsilon_0 x\sqrt{x^2+\frac{L^2}{4}}}\]
+
 对于\textbf{无限长的棒},距离棒$r$处的电场强度为
 \[E=\frac{\lambda}{2\pi\varepsilon_0 r}\]其中$\lambda$是单位长度的电荷量
 
@@ -43,5 +46,159 @@
 \textbf{均匀带电圆盘},电荷面密度为$\sigma$,则距圆盘$x$处的电场强度为\[E=\frac{\sigma}{2\varepsilon_0}(1-\frac{x}{\sqrt{x^2+R^2}})\]
 由此也可得出无限大平面激发电场$E=\frac{\sigma}{2\varepsilon_0}$
 
-均匀带电球面
+\textbf{均匀带电球面}：
+\[E=
+\begin{cases}
+\frac{Q}{4\pi\varepsilon_0x^2} & x\leq R\\
+0 & x>R
+\end{cases}
+\]
+\subsection{静电场的高斯定理}
+\[\varPhi_E=\oint_S \vec E\cdot d\vec S=\frac{1}{\varepsilon_0}\sum_i q_i\]
+当场源电荷分布具有某种对称性时，应用高斯定律选取恰当高斯面，可求场强
+
+均匀带点球内有空腔，空腔内为均匀电场（用填补法）
+\subsection{静电场环路定理}
+由电场力做功，有静电场环路定理：
+\[\oint_L \vec{E}\cdot d\vec{l}=0\]
+说明静电场是无旋场（保守场）
+\subsection{电势差和电势}
+静电场中任意点$P$的电势为
+\[V_P=\int_P^{V=0}\vec{E}\cdot d\vec{l}\]
+
+注意：有限空间电荷分布可选取无穷远处为电势零点，电荷分布在无限空间则选取有限远点为电势零点！
+
+\textbf{点电荷场中的电势}为
+\[V=\frac{1}{4\pi\varepsilon_0}\frac{q}{r}\]
+
+\textbf{均匀带电球面电场中的电势}：球面外同点电荷电势，球面内因无场而为等势区
+
+\textbf{无限长均匀带电圆柱体中的电势}（令柱面出电势为0）
+\[E=
+\begin{cases}
+    \frac{\rho R^2}{2\varepsilon_0 r} & r>R\\
+    \frac{\rho r}{2\varepsilon_0} & r\leq R
+\end{cases}
+\Rightarrow
+V=\int_r^R E dr
+\]
+
+也可叠加法求电势
+\[V_P=\int_q\frac{dq}{4\pi\varepsilon_0 r}\]
+
+
+均匀带电圆环轴线上点的电势为
+\[V_P=\frac{q}{4\pi\varepsilon_0\sqrt{R^2+x^2}}\]
+
+电势梯度
+\[E=-\nabla V\]
+\subsection{静电场中的导体}
+静电平衡状态：导体表面和内部没有电荷的定向运动
+
+静电平衡条件：1.导体内部$\vec{E}=0$;2.外表面$\vec{E}\perp $表面
+
+于是此时导体为等势体，导体表面是等势面
+
+静电平衡时导体内部没有净电荷，电荷分布在外表面上
+
+导体外表面附近场强与电荷面密度有关：
+\[\boxed{E=\frac{\sigma}{\varepsilon_0}}\]
+注意其中$E$为合场强
+
+孤立导体表面上面电荷密度为$\sigma$，曲率半径为$R$，则
+\[\boxed{\sigma \propto \frac{1}{R}}\]
+
+导体空腔内有一带电体，由高斯定理得2内表面感应出反号电荷
+
+有导体存在时静电场的分析：电场叠加；电势叠加；高斯定理；电荷守恒；静电平衡条件
+
+\subsection{静电场中的电介质}
+电介质为绝缘体，在静电场中会发生极化，无极分子发生位移极化，有极分子发生取向极化和位移极化
+
+端面上束缚电荷越多，电极化程度越高。束缚电荷产生的电场可以影响原电场
+
+\textbf{电极化强度矢量}为单位体积内所有分子的电偶极矩矢量和
+\[\vec{P}=\frac{\sum\vec{p_i}}{V}\]
+单位为C/m$^2$
+
+对各向同性的电介质有
+\[\boxed{\vec{P}=\chi_e\varepsilon_0\vec{E}}\]
+其中$\chi_e=\varepsilon_r-1$为电极化率，$\varepsilon_r=\frac{\varepsilon}{\varepsilon_0}$为相对介电常数
+
+电场很大时电介质会被击穿，分子正负电荷被拉开，成为导体
+
+绝缘体不能导电，但电场可以在其中存在，因此称为电介质。
+
+演示静电植绒实验。
+
+电极化强度矢量线起于束缚正电荷，止于束缚负电荷
+
+极化强度与束缚电荷面密度有关系：
+\[\sigma'=P\cos\theta=\vec{P}\cdot\vec{n}\]
+其中$\theta$为$\vec{P}$与介质表面外法线的夹角
+
+电介质空间内封闭面S内的束缚电荷:
+\[Q'=-\oint_S\sigma'\mathrm{d}S=-\oint_S\vec{P}\cdot\vec{n}\mathrm{d}S=-\oint\vec{P}\cdot\overrightarrow{dS}\]
+
+\textbf{有介质存在时的电场}
+若未放入介质时为$V_0$,$\vec{E_0}$，则
+\[V=\frac{V_0}{\varepsilon_r}\quad\vec{E}=\frac{\vec{E_0}}{\varepsilon_r}\]
+即\textbf{只要将$\varepsilon_0\rightarrow\varepsilon$即可}
+
+实际给定自由电荷分布求存在介质时稳定后的电场分布和束缚电荷分布，先求$\vec{D}$再求$\vec{E}$
+
+\textbf{电位移矢量}$\vec{D}$为$\varepsilon E$只与自由电荷有关
+
+有介质空间的高斯定理
+\[\oint_S(\varepsilon_0\vec{E}+\vec{P})\cdot\overrightarrow{dS}=\sum q_i\]
+\[\oint_S\vec{D}\cdot\overrightarrow{dS}=\sum q_i\]
+
+解题时的一般步骤：自由电荷$\rightarrow\vec{D}\rightarrow\vec{E}\rightarrow\vec{P}$
+\subsection{电容和电容器}
+\[C=\frac{q}{V}\]
+
+因此孤立导体球的电容为
+\[C=\frac{q}{\frac{q}{4\pi\varepsilon_0R}}=4\pi\varepsilon_0R\]
+
+平行板电容器的电容：
+\[\boxed{C=\frac{\varepsilon S}{d}}\]
+
+圆柱形电容器的电容
+\[C=\frac{2\pi\varepsilon}{\ln  \frac{R_b}{R_a}}\]
+
+球形电容器的电容
+\[C=\frac{4\pi\varepsilon R_aR_b}{R_b-R_a}\]
+
+计算电容:设电荷，求电势差
+
+电容串，耐压增大，且
+\[\frac{1}{C}=\frac{1}{C_1}+\frac{1}{C_2}\]
+
+电容并联有
+\[C=C_1+C_2\]
+
+\subsection{静电场中的能量}
+点电荷在电场中具有电势能
+\[W=qV\]
+
+电偶极子在均匀电场中的电势能:
+\[W=-\vec{P}\cdot\vec{E}\]
+
+电荷系的静电能:现有位置分散到无穷远处静电力做的功；从无穷远位置移到现有位置外力做的功
+
+两个点电荷系统的静电能
+\[W=\frac{q_1q_2}{4\pi\varepsilon_0r}\]
+
+点电荷系的电势能
+\[W=\frac{1}{2}\sum q_iV_i\]
+其中$V_i$为$q_i$处的电势
+
+电荷连续分布的带电体则可以写成
+\[W=\frac{1}{2}\int_q V\mathrm{d}q\]
+其中$V$为$d\mathrm{d}q$处的电势，因无限远而可以包括$\mathrm{d}q$
+
+电容器的能量可以用电源力做功表示,结果为\[W=A=\frac{Q^2}{2C}=\frac{CV^2}{2}=\frac{QV}{2}\]
+
+电场的能量密度(单位体积存储的电场能量)
+\[w_e=\frac{1}{2}\vec{D}\cdot\vec{E}\]
 \end{document}
